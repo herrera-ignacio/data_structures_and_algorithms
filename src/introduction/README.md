@@ -10,9 +10,18 @@ before studying data structure and algorithms.
 * Program Memory
 * Stack Memory
 * Heap Memory
-* Physical vs Logical data structures
-* ADT
+* Physical data structure
+    * Array
+    * Linked list
+* Logical data structure
+    * Stack
+    * Queues
+    * Tree
+    * Graph
+    * Hash Table
+* Abstract Data Type (ADT)
 * Time and Space complexity
+* Recursion
 
 ### Data Structures
 
@@ -63,3 +72,35 @@ Heap memory should be treated as a resource. You take the memory and when you do
 require it anymore, you release it. Program can't directly access heap memory.
 
 If you do not release the heap memory, then the memory will be still belonging to your program, and that memory cannot be used again, so it causes loss of memory (_memory leak_). 
+
+### Physical Data Structures
+
+These data structures decides or defines how the memory is organized/allocated. They are meant for storing the data.
+
+* Array
+* Linked list
+
+### Logical Data Structures
+
+These data structures are implemented using physical data structures. They are meant for
+manipulating the data stored in memory.
+
+* Stack
+* Queues
+* Tree
+* Graph
+* Hash Table
+
+### Abstract Data Type (ADT)
+
+* Representation of data
+* Operations on Data 
+
+Abstract means _hiding internal details_. We don't need how the operations are actually
+being performed in the binary form inside the main memory.
+
+### Time and Space Complexity
+
+![complexity 1](../../assets/images/complexity)
+![complexity 2](../../assets/images/complexity2)
+![complexity 3](../../assets/images/complexity3)

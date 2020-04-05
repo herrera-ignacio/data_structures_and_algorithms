@@ -46,6 +46,13 @@
 			remoteGlobalIDString = 667C94FC243A1CF400A2BE2D;
 			remoteInfo = Fibonacci;
 		};
+		667C9523243A21A400A2BE2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 667C951F243A21A300A2BE2D /* CombinatoryNumber.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 667C9515243A21A300A2BE2D;
+			remoteInfo = CombinatoryNumber;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -72,6 +79,7 @@
 		667173C92438143900704116 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		667173CB2438148600704116 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		667C9506243A1CF400A2BE2D /* Fibonacci.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Fibonacci.xcodeproj; path = Fibonacci/Fibonacci.xcodeproj; sourceTree = "<group>"; };
+		667C951F243A21A300A2BE2D /* CombinatoryNumber.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CombinatoryNumber.xcodeproj; path = CombinatoryNumber/CombinatoryNumber.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,7 @@
 		66399EAF24397A5E00102861 /* recursion */ = {
 			isa = PBXGroup;
 			children = (
+				667C951F243A21A300A2BE2D /* CombinatoryNumber.xcodeproj */,
 				667C9506243A1CF400A2BE2D /* Fibonacci.xcodeproj */,
 				66399F0F243983B000102861 /* TaylorSeries.xcodeproj */,
 				66399EF62439818C00102861 /* NestedRecursion.xcodeproj */,
@@ -174,6 +183,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		667C9520243A21A300A2BE2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				667C9524243A21A400A2BE2D /* CombinatoryNumber */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -220,6 +237,10 @@
 			productRefGroup = 667173C0243813D700704116 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 667C9520243A21A300A2BE2D /* Products */;
+					ProjectRef = 667C951F243A21A300A2BE2D /* CombinatoryNumber.xcodeproj */;
+				},
 				{
 					ProductGroup = 667C9507243A1CF400A2BE2D /* Products */;
 					ProjectRef = 667C9506243A1CF400A2BE2D /* Fibonacci.xcodeproj */;
@@ -282,6 +303,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = Fibonacci;
 			remoteRef = 667C950A243A1CF500A2BE2D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		667C9524243A21A400A2BE2D /* CombinatoryNumber */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = CombinatoryNumber;
+			remoteRef = 667C9523243A21A400A2BE2D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

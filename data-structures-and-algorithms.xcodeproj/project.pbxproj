@@ -32,6 +32,13 @@
 			remoteGlobalIDString = 66399EEC2439818C00102861;
 			remoteInfo = NestedRecursion;
 		};
+		66399F13243983B200102861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66399F0F243983B000102861 /* TaylorSeries.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 66399F05243983B000102861;
+			remoteInfo = TaylorSeries;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +59,7 @@
 		66399EC424397D7000102861 /* TreeRecursion.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TreeRecursion.xcodeproj; path = TreeRecursion/TreeRecursion.xcodeproj; sourceTree = "<group>"; };
 		66399EDD2439803E00102861 /* IndirectRecursion.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IndirectRecursion.xcodeproj; path = IndirectRecursion/IndirectRecursion.xcodeproj; sourceTree = "<group>"; };
 		66399EF62439818C00102861 /* NestedRecursion.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NestedRecursion.xcodeproj; path = NestedRecursion/NestedRecursion.xcodeproj; sourceTree = "<group>"; };
+		66399F0F243983B000102861 /* TaylorSeries.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TaylorSeries.xcodeproj; path = src/recursion/TaylorSeries/TaylorSeries.xcodeproj; sourceTree = "<group>"; };
 		667173BF243813D700704116 /* data-structures-and-algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "data-structures-and-algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
 		667173C2243813D700704116 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		667173C92438143900704116 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
@@ -104,9 +112,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		66399F10243983B000102861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66399F14243983B200102861 /* TaylorSeries */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		667173B6243813D700704116 = {
 			isa = PBXGroup;
 			children = (
+				66399F0F243983B000102861 /* TaylorSeries.xcodeproj */,
 				66399EAE24396D1300102861 /* assets */,
 				667173C1243813D700704116 /* src */,
 				667173C0243813D700704116 /* Products */,
@@ -195,6 +212,10 @@
 					ProjectRef = 66399EF62439818C00102861 /* NestedRecursion.xcodeproj */;
 				},
 				{
+					ProductGroup = 66399F10243983B000102861 /* Products */;
+					ProjectRef = 66399F0F243983B000102861 /* TaylorSeries.xcodeproj */;
+				},
+				{
 					ProductGroup = 66399EC524397D7000102861 /* Products */;
 					ProjectRef = 66399EC424397D7000102861 /* TreeRecursion.xcodeproj */;
 				},
@@ -226,6 +247,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = NestedRecursion;
 			remoteRef = 66399EFA2439818D00102861 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		66399F14243983B200102861 /* TaylorSeries */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = TaylorSeries;
+			remoteRef = 66399F13243983B200102861 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

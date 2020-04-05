@@ -60,6 +60,27 @@
 			remoteGlobalIDString = 667C952E243A237F00A2BE2D;
 			remoteInfo = HanoiTowers;
 		};
+		667C9559243A69DA00A2BE2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 667C9555243A69D900A2BE2D /* ArrayBasics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 667C954B243A69D900A2BE2D;
+			remoteInfo = ArrayBasics;
+		};
+		667C9572243A6B6900A2BE2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 667C956E243A6B6800A2BE2D /* DynamicArray.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 667C9564243A6B6800A2BE2D;
+			remoteInfo = DynamicArray;
+		};
+		667C958B243A6CF900A2BE2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 667C9587243A6CF800A2BE2D /* ResizeArray.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 667C957D243A6CF800A2BE2D;
+			remoteInfo = ResizeArray;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -88,6 +109,10 @@
 		667C9506243A1CF400A2BE2D /* Fibonacci.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Fibonacci.xcodeproj; path = Fibonacci/Fibonacci.xcodeproj; sourceTree = "<group>"; };
 		667C951F243A21A300A2BE2D /* CombinatoryNumber.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CombinatoryNumber.xcodeproj; path = CombinatoryNumber/CombinatoryNumber.xcodeproj; sourceTree = "<group>"; };
 		667C9538243A237F00A2BE2D /* HanoiTowers.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HanoiTowers.xcodeproj; path = HanoiTowers/HanoiTowers.xcodeproj; sourceTree = "<group>"; };
+		667C9541243A686100A2BE2D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		667C9555243A69D900A2BE2D /* ArrayBasics.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ArrayBasics.xcodeproj; path = ArrayBasics/ArrayBasics.xcodeproj; sourceTree = "<group>"; };
+		667C956E243A6B6800A2BE2D /* DynamicArray.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DynamicArray.xcodeproj; path = DynamicArray/DynamicArray.xcodeproj; sourceTree = "<group>"; };
+		667C9587243A6CF800A2BE2D /* ResizeArray.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResizeArray.xcodeproj; path = ResizeArray/ResizeArray.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +185,7 @@
 		667173C1243813D700704116 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				667C953F243A683000A2BE2D /* data-structures */,
 				66399EAF24397A5E00102861 /* recursion */,
 				667173CA2438147900704116 /* introduction */,
 				667173C2243813D700704116 /* main.cpp */,
@@ -204,6 +230,49 @@
 			isa = PBXGroup;
 			children = (
 				667C953D243A238000A2BE2D /* HanoiTowers */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		667C953F243A683000A2BE2D /* data-structures */ = {
+			isa = PBXGroup;
+			children = (
+				667C9540243A684300A2BE2D /* array */,
+			);
+			path = "data-structures";
+			sourceTree = "<group>";
+		};
+		667C9540243A684300A2BE2D /* array */ = {
+			isa = PBXGroup;
+			children = (
+				667C9587243A6CF800A2BE2D /* ResizeArray.xcodeproj */,
+				667C956E243A6B6800A2BE2D /* DynamicArray.xcodeproj */,
+				667C9555243A69D900A2BE2D /* ArrayBasics.xcodeproj */,
+				667C9541243A686100A2BE2D /* README.md */,
+			);
+			path = array;
+			sourceTree = "<group>";
+		};
+		667C9556243A69D900A2BE2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				667C955A243A69DA00A2BE2D /* ArrayBasics */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		667C956F243A6B6800A2BE2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				667C9573243A6B6900A2BE2D /* DynamicArray */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		667C9588243A6CF800A2BE2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				667C958C243A6CF900A2BE2D /* ResizeArray */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -255,8 +324,16 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 667C9556243A69D900A2BE2D /* Products */;
+					ProjectRef = 667C9555243A69D900A2BE2D /* ArrayBasics.xcodeproj */;
+				},
+				{
 					ProductGroup = 667C9520243A21A300A2BE2D /* Products */;
 					ProjectRef = 667C951F243A21A300A2BE2D /* CombinatoryNumber.xcodeproj */;
+				},
+				{
+					ProductGroup = 667C956F243A6B6800A2BE2D /* Products */;
+					ProjectRef = 667C956E243A6B6800A2BE2D /* DynamicArray.xcodeproj */;
 				},
 				{
 					ProductGroup = 667C9507243A1CF400A2BE2D /* Products */;
@@ -273,6 +350,10 @@
 				{
 					ProductGroup = 66399EF72439818C00102861 /* Products */;
 					ProjectRef = 66399EF62439818C00102861 /* NestedRecursion.xcodeproj */;
+				},
+				{
+					ProductGroup = 667C9588243A6CF800A2BE2D /* Products */;
+					ProjectRef = 667C9587243A6CF800A2BE2D /* ResizeArray.xcodeproj */;
 				},
 				{
 					ProductGroup = 667C94EE243A1CCF00A2BE2D /* Products */;
@@ -338,6 +419,27 @@
 			fileType = "compiled.mach-o.executable";
 			path = HanoiTowers;
 			remoteRef = 667C953C243A238000A2BE2D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		667C955A243A69DA00A2BE2D /* ArrayBasics */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ArrayBasics;
+			remoteRef = 667C9559243A69DA00A2BE2D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		667C9573243A6B6900A2BE2D /* DynamicArray */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = DynamicArray;
+			remoteRef = 667C9572243A6B6900A2BE2D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		667C958C243A6CF900A2BE2D /* ResizeArray */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ResizeArray;
+			remoteRef = 667C958B243A6CF900A2BE2D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

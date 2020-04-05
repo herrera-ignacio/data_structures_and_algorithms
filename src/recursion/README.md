@@ -65,3 +65,5 @@ The function `A` makes a call to another function `B`, which then calls again th
 ## Nested Recursion
 
 A _recursive function_ makes a recursive call which takes as a param another recursive call.
+
+---

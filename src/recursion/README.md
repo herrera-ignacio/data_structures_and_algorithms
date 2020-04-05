@@ -57,3 +57,11 @@ f(int x, int y) {
     f(x, y-1)
 }
 ```
+
+## Indirect Recursion
+
+The function `A` makes a call to another function `B`, which then calls again the function `A` if some condition is true, and so on. We then have two functions calling each other until a condition fails or holds.
+
+## Nested Recursion
+
+A _recursive function_ makes a recursive call which takes as a param another recursive call.

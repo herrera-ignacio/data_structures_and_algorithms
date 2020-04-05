@@ -18,6 +18,20 @@
 			remoteGlobalIDString = 66399EBA24397D7000102861;
 			remoteInfo = TreeRecursion;
 		};
+		66399EE12439803F00102861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66399EDD2439803E00102861 /* IndirectRecursion.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 66399ED32439803E00102861;
+			remoteInfo = IndirectRecursion;
+		};
+		66399EFA2439818D00102861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66399EF62439818C00102861 /* NestedRecursion.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 66399EEC2439818C00102861;
+			remoteInfo = NestedRecursion;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +50,8 @@
 		66399EAE24396D1300102861 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		66399EB024397A7500102861 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		66399EC424397D7000102861 /* TreeRecursion.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TreeRecursion.xcodeproj; path = TreeRecursion/TreeRecursion.xcodeproj; sourceTree = "<group>"; };
+		66399EDD2439803E00102861 /* IndirectRecursion.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IndirectRecursion.xcodeproj; path = IndirectRecursion/IndirectRecursion.xcodeproj; sourceTree = "<group>"; };
+		66399EF62439818C00102861 /* NestedRecursion.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NestedRecursion.xcodeproj; path = NestedRecursion/NestedRecursion.xcodeproj; sourceTree = "<group>"; };
 		667173BF243813D700704116 /* data-structures-and-algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "data-structures-and-algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
 		667173C2243813D700704116 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		667173C92438143900704116 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
@@ -56,6 +72,8 @@
 		66399EAF24397A5E00102861 /* recursion */ = {
 			isa = PBXGroup;
 			children = (
+				66399EF62439818C00102861 /* NestedRecursion.xcodeproj */,
+				66399EDD2439803E00102861 /* IndirectRecursion.xcodeproj */,
 				66399EC424397D7000102861 /* TreeRecursion.xcodeproj */,
 				66399EB024397A7500102861 /* README.md */,
 			);
@@ -66,6 +84,22 @@
 			isa = PBXGroup;
 			children = (
 				66399EC924397D7200102861 /* TreeRecursion */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66399EDE2439803E00102861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66399EE22439803F00102861 /* IndirectRecursion */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66399EF72439818C00102861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66399EFB2439818D00102861 /* NestedRecursion */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,6 +187,14 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 66399EDE2439803E00102861 /* Products */;
+					ProjectRef = 66399EDD2439803E00102861 /* IndirectRecursion.xcodeproj */;
+				},
+				{
+					ProductGroup = 66399EF72439818C00102861 /* Products */;
+					ProjectRef = 66399EF62439818C00102861 /* NestedRecursion.xcodeproj */;
+				},
+				{
 					ProductGroup = 66399EC524397D7000102861 /* Products */;
 					ProjectRef = 66399EC424397D7000102861 /* TreeRecursion.xcodeproj */;
 				},
@@ -170,6 +212,20 @@
 			fileType = "compiled.mach-o.executable";
 			path = TreeRecursion;
 			remoteRef = 66399EC824397D7200102861 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		66399EE22439803F00102861 /* IndirectRecursion */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = IndirectRecursion;
+			remoteRef = 66399EE12439803F00102861 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		66399EFB2439818D00102861 /* NestedRecursion */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = NestedRecursion;
+			remoteRef = 66399EFA2439818D00102861 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

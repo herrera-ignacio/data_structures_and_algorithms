@@ -113,6 +113,7 @@
 		667C9555243A69D900A2BE2D /* ArrayBasics.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ArrayBasics.xcodeproj; path = ArrayBasics/ArrayBasics.xcodeproj; sourceTree = "<group>"; };
 		667C956E243A6B6800A2BE2D /* DynamicArray.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DynamicArray.xcodeproj; path = DynamicArray/DynamicArray.xcodeproj; sourceTree = "<group>"; };
 		667C9587243A6CF800A2BE2D /* ResizeArray.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResizeArray.xcodeproj; path = ResizeArray/ResizeArray.xcodeproj; sourceTree = "<group>"; };
+		667C95A0243AA1CB00A2BE2D /* ArrayADT.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ArrayADT.xcodeproj; path = ADT/ArrayADT.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +246,7 @@
 		667C9540243A684300A2BE2D /* array */ = {
 			isa = PBXGroup;
 			children = (
+				667C95A0243AA1CB00A2BE2D /* ArrayADT.xcodeproj */,
 				667C9587243A6CF800A2BE2D /* ResizeArray.xcodeproj */,
 				667C956E243A6B6800A2BE2D /* DynamicArray.xcodeproj */,
 				667C9555243A69D900A2BE2D /* ArrayBasics.xcodeproj */,

@@ -22,7 +22,5 @@ int main(int argc, const char * argv[]) {
     // We delete q reference
     q = NULL;
     
-    printf(sizeof(p));
-    
     return 0;
 }

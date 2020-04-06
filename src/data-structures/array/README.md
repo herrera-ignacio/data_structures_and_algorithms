@@ -20,3 +20,7 @@ int B[n]
 
 Array's size cannot be grown, as memory needs to be contiguous and we have no way to assert that enough contiguous memory addreses are available (objets may be using them). For that reason, we say that array's size cannot be resized and to accomplish this, we need to create a new array.
 
+
+### Array in Compilers
+
+

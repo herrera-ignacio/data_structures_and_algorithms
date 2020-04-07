@@ -81,6 +81,13 @@
 			remoteGlobalIDString = 667C957D243A6CF800A2BE2D;
 			remoteInfo = ResizeArray;
 		};
+		66A81873243BEDDF00231344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 667C95A0243AA1CB00A2BE2D /* ArrayADT.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 667C9596243AA1CB00A2BE2D;
+			remoteInfo = ArrayADT;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -279,6 +286,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		66A81870243BEDDF00231344 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66A81874243BEDDF00231344 /* ArrayADT */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -325,6 +340,10 @@
 			productRefGroup = 667173C0243813D700704116 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 66A81870243BEDDF00231344 /* Products */;
+					ProjectRef = 667C95A0243AA1CB00A2BE2D /* ArrayADT.xcodeproj */;
+				},
 				{
 					ProductGroup = 667C9556243A69D900A2BE2D /* Products */;
 					ProjectRef = 667C9555243A69D900A2BE2D /* ArrayBasics.xcodeproj */;
@@ -442,6 +461,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = ResizeArray;
 			remoteRef = 667C958B243A6CF900A2BE2D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		66A81874243BEDDF00231344 /* ArrayADT */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ArrayADT;
+			remoteRef = 66A81873243BEDDF00231344 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

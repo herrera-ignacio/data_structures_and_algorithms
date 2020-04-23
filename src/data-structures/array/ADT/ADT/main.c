@@ -251,7 +251,7 @@ struct Array* Difference(struct Array *arr1, struct Array *arr2)
     }
     
     for (; i < arr1->length; i++)
-        arr3->A[k++] = arr1->A[i]
+        arr3->A[k++] = arr1->A[i];
     
     arr3->length = k;
     arr3->size = 10;

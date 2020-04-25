@@ -6,4 +6,6 @@
 * [Recursion](./src/recursion)
 * Data Structures
     * [Array](./src/data-structures/array)
-    * [String](.src/data-structures/string)
+    * [String](./src/data-structures/string)
+	* [Matrix](./src/data-structures/matrix)
+

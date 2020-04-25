@@ -26,7 +26,6 @@ void PrintPermutations(std::string &s, int low, int high)
 	}
 }
 
-
 int main()
 {
 	std::string test = "ABC";

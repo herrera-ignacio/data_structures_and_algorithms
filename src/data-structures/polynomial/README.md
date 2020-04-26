@@ -1,6 +1,6 @@
 # Polynomial
 
-#### Representation
+#### Basic Representation
 
 ```
 struct Term
@@ -16,4 +16,8 @@ struct Poly
 }
 ```
 
-Check example for implementation.
+Check `poly.c` example with implementation.
+
+#### Linked List Representation
+
+Check `linkedPoly.c` example with implementation.

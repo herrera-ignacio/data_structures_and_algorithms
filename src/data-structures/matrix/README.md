@@ -7,6 +7,7 @@
 * Tri-Diagonal
 * Square Band
 * Toeplitz
+* Sparse
 
 ## Representation
 
@@ -75,3 +76,13 @@ Index(A[i][j]):
 	if i <= j then index = j - 1
 	if i > j then index = n + i -j - 1
 ```
+
+#### [Sparse Matrix](https://en.wikipedia.org/wiki/Sparse_matrix)
+
+> A matrix in which most of the elements are zero.
+
+![sparse matrix](sparse.png)
+
+* 3-column representation
+* Compressed sparse rows
+

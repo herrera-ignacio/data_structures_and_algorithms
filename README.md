@@ -13,4 +13,4 @@
 	* [Doubly Linked List](./src/data-structures/circular_list)
 	* [Stack](./src/data-structures/stack)
 	* [Queue](./src/data-structures/queue)
-
+	* [Trees](./src/data-structures/trees)

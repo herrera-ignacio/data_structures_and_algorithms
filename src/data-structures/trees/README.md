@@ -49,13 +49,17 @@ We attempt to visit the node closest from the root that it has not already been 
 
 ### Common Types
 
-* AVL
 * [Binary Tree](bt/README.md)
-* [Binary Search Tree (BST)](bst/README.md)
-* Huffman tree
+* [Binary Search Tree (BST)](search/bst/README.md)
 * [K-ary tree](kary/README.md)
+* [AVL](/avl/README.md)
+* Search trees
+	* [B-Trees](/search/btree/README.md)
+		* [2-3](/search/btree/2-3/README.md)
+		* [2-3-4](/search/btree/2-3-4/README.md)
+	* [Red-Black](/search/red-black/README.md)
+* Huffman tree
 * Random binary tree
-* Red-black tree
 * Optimal binary search tree
 * Self-balancing binary search tree
 

@@ -2,7 +2,7 @@
 
 | Algorithm      | Worst time | Average time | Space |
 |--------------- |------------|--------------|-------|
-| Insertion sort | O(n^2)	  | O(n^2)		 | O(n)  |
+| Insertion sort | O(n^2)	  | O(n^2)		 | O(1)  |
 
 ![insertion sort](./insertion.gif)
 

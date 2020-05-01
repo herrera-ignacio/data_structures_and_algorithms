@@ -3,6 +3,15 @@
 ### TOC
 
 * [Must know concepts](./src/introduction)
+	* Data Structures
+	* Database & Data Structures
+	* Program Memory
+		* Stack memory
+		* Heap memory
+	* Phyisical data structure
+	* Logical data structre
+	* Abstract Data Type (ADT)
+	* Time & Space Complexity (Big O Notation)
 * [Recursion](./src/recursion)
 * Data Structures
     * [Array](./src/data-structures/array)
@@ -16,6 +25,7 @@
 	* [Trees](./src/data-structures/trees)
 	* [Heap](./src/data-structures/heap)
 * Algorithms
+	* [Divide and Conquer](./src/algorithms/divide-and-conquer)
 	* [Sorting](./src/algorithms/sorting)
 		* [Bubble Sort](./src/algorithms/sorting/bubble)
 		* [Insertion Sort](./src/algorithms/sorting/insertion)

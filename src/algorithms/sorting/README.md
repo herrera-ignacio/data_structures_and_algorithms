@@ -6,6 +6,7 @@
 | Insertion sort | O(n^2)     | O(n^2)       | O(1)  |
 | Selection sort | O(n^2)     | O(n^2)       | O(1)  |
 | Quick sort	 | O(n^2)     | O(n lg n)    | O(1)  | 
+| Merge sort	 | O(n lg n)  | O(n lg n)    | O(1)  | 
 
 ### Stable
 

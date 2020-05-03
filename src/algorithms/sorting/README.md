@@ -1,18 +1,21 @@
 # Sorting
 
-| Algorithm      | Worst time | Average time | Space |
-|----------------|------------|--------------|-------|
-| Bubble sort    | O(n^2)     | O(n^2)       | O(n)  |
-| Insertion sort | O(n^2)     | O(n^2)       | O(1)  |
-| Selection sort | O(n^2)     | O(n^2)       | O(1)  |
-| Quick sort	 | O(n^2)     | O(n lg n)    | O(n) naive or O(log n) | 
-| Merge sort	 | O(n lg n)  | O(n lg n)    | O(n)  | 
-| Heap sort      | O(n lg n)  | O(n lg n)    | O(n)  |
-| Counting sort	 | O(n + k)   | O(n + k)     | O(n + k) | 
-| Radix sort	 | O(w * n)   | O(w * n)     | O(w * n) | 
-| Bucket sort    | O(n^2)     | O(n+n^2/k+k) | O(n * k) |
-| Shell sort     | O(n^2)	  | Depends on gap | O(n) |
+| Algorithm      | Worst time | Average time | Space | Stable | In-Place |
+|----------------|------------|--------------|-------| ------ | -------- |
+| Bubble sort    | O(n^2)     | O(n^2)       | O(n)  | Yes    | Yes      |
+| Insertion sort | O(n^2)     | O(n^2)       | O(1)  | Yes    | Yes      |
+| Selection sort | O(n^2)     | O(n^2)       | O(1)  | No     | Yes      |
+| Quick sort	 | O(n^2)     | O(n lg n)    | O(log n) | No  | _Yes_    | 
+| Merge sort	 | O(n lg n)  | O(n lg n)    | O(n)  | Yes    | No       |
+| Heap sort      | O(n lg n)  | O(n lg n)    | O(n)  | Yes    | Yes      |
+| Counting sort	 | O(n + k)   | O(n + k)     | O(n + k) | Yes   | No     |
+| Radix sort	 | O(w * n)   | O(w * n)     | O(w * n) | Yes   | No     |
+| Bucket sort    | O(n^2)     | O(n+n^2/k+k) | O(n * k) | Yes   | No     |
+| Shell sort     | O(n^2)	  | Depends on gap | O(n)   | No    | Yes    |
 
+> Quick-sort requires O(log n) stack space pointers ot keep track of subarrays, which technically takes quick sort otu of e in-palce category, but is usually considered in-place. Also efficient implementations are not stable.
+
+> Bucket sort being stable depends on the comparison-sorting algorithm used.
 
 ### Stable
 

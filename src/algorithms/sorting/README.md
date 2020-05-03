@@ -8,6 +8,8 @@
 | Quick sort	 | O(n^2)     | O(n lg n)    | O(n) naive or O(log n)  | 
 | Merge sort	 | O(n lg n)  | O(n lg n)    | O(n)  | 
 | Counting sort	 | O(n + k)   | O(n + k)     | O(n + k) | 
+| Radix sort	 | O(w * n)   | O(w * n)     | O(w * n) | 
+| Bucket sort    | O(n^2)     | O(n+n^2/k+k) | O(n * k) |
 
 ### Stable
 

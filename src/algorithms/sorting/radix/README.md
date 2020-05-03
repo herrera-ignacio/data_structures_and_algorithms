@@ -4,6 +4,8 @@
 |----------------|------------|--------------|-------|
 | Radix sort	 | O(w * n)   | O(w * n)     | O(w * n) | 
 
+> Given n d-digit numbers, in which each digit can take up to k possible values, RADIX-SORT correctly sorts this numbers in __Theta(d(n+k))__ time if the stable sort it uses takes Theta(n+k) time.
+
 ![radix sort](./radix.png)
 
 Radix sort is the algorithm used by the card-sorting machines you now find only in computer museums.

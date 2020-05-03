@@ -11,6 +11,8 @@
 | Counting sort	 | O(n + k)   | O(n + k)     | O(n + k) | 
 | Radix sort	 | O(w * n)   | O(w * n)     | O(w * n) | 
 | Bucket sort    | O(n^2)     | O(n+n^2/k+k) | O(n * k) |
+| Shell sort     | O(n^2)	  | Depends on gap | O(n) |
+
 
 ### Stable
 

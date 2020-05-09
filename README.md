@@ -13,7 +13,7 @@
 	* Abstract Data Type (ADT)
 	* Time & Space Complexity (Big O Notation)
 * [Recursion](./src/recursion)
-* Data Structures
+* [Data Structures](./src/data-structures)
     * [Array](./src/data-structures/array)
     * [String](./src/data-structures/string)
 	* [Matrix](./src/data-structures/matrix)
@@ -45,3 +45,5 @@
 			* [Division Method](./src/algorithms/hashing/hash_functions/division)
 			* [Multiplication Method](./src/algorithms/hashing/hash_functions/multiplication)
 			* [Universal Method](./src/algorithms/hashing/hash_functions/universal)
+		* [Perfect Hashing](./src/algorithms/hashing/perfect-hashing)
+

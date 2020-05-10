@@ -46,4 +46,7 @@
 			* [Multiplication Method](./src/algorithms/hashing/hash_functions/multiplication)
 			* [Universal Method](./src/algorithms/hashing/hash_functions/universal)
 		* [Perfect Hashing](./src/algorithms/hashing/perfect-hashing)
-
+	* [Graphs](./src/algorithms/graphs)
+		* [Depth-First Search](./src/algorithms/graphs/dfs)
+	* [Trees](./src/algorithms/trees)
+		* [Depth-First Search](./src/algorithms/trees/dfs)

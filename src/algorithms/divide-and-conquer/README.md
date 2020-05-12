@@ -33,7 +33,7 @@ Check [this example](./maximum-subarray) to see first-hand how Divide and Conque
 
 ### Substitution Method
 
-1. Guess the form of the slution
+1. Guess the form of the solution
 2. Use mathematical induction to find the constants and show that the solution works.
 
 As an example, let us determine an uper bound on the recurrence `T(n) = 2T(|n/2|) + n`.
@@ -106,8 +106,8 @@ a >= 1 && b > 1, are constants.
 
 #### Master Theorem
 
-Let a >= 1 and b > 1 be constants, let f(n) be a function nd let T() be defined on the nonnegative integers by the recurrence `T(n) = aT(n/b) + f(n)`, then T(n) has the followign asymptotic bounds:
+Let a >= 1 and b > 1 be constants, let f(n) be a function and let T(n) be defined on the nonnegative integers by the recurrence `T(n) = aT(n/b) + f(n)`, then T(n) has the followign asymptotic bounds:
 
-1. If `f(n) = O(n^(lob_b(a-e)))` for some constant `e > 0` then `T(n) = Theta(n^log_b(a))`.
+1. If `f(n) = O(n^(log_b(a-e)))` for some constant `e > 0` then `T(n) = Theta(n^log_b(a))`.
 2. If `f(n) = Theta(n^log_b(a))`, then `T(n) = Theta(n^log_b(a) * lg n)`.
 3. If `f(n) = Mu(n^log_b(a+e))`, for some constant `e > 0` then `T(n) = Theta(f(n))`.

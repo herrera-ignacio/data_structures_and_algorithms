@@ -13,12 +13,10 @@ def depth_first_search(tree: List, pos: int) -> List:
 
         if (right(v) < len(tree)):
             right_node = tree[right(v)]
-            if right_node not in visited:
-                stack.append(right(v))
+            stack.append(right(v))
         if (left(v) < len(tree)):
             left_node = tree[left(v)]
-            if left_node not in visited:
-                stack.append(left(v))
+            stack.append(left(v))
     
     return visited
 

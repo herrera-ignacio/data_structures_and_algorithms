@@ -14,7 +14,7 @@ A B-tree of _order m_ is a tree which satisfies the following properties:
 * Every non-leaf node (except root) has at least |m/2| child nodes.
 * Root has at least two children if it is not a leaf node.
 * A non-leaf node with K children contains k-1 keys.
-* All leaves appear in the same level and cary no information.
+* All leaves appear in the same level and carry no information.
 
 ### Variants
 

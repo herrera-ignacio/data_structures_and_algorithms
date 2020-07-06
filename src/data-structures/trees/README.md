@@ -4,7 +4,7 @@
 
 ![tree](./tree.png)
 
-A tree data strucure can be __defined recursively__ as a collection of nodes (starting at a root node), where each node is a data structure consisting of a value, together with a list of references to nodes (the "children"), with te constraints that no reference is duplicated, and none points to the root.
+A tree data strucure can be __defined recursively__ as a collection of nodes (starting at a root node), where each node is a data structure consisting of a value, together with a list of references to nodes (the "children"), with the constraints that no reference is duplicated, and none points to the root.
 
 Alternatively, a tree can be __defined abstractly__ as a whole as an ordered tree, with a value assigned to each node.
 
@@ -41,11 +41,17 @@ Visit each node in a tree by _recursively visiting_ each node in the left and ri
 
 #### Depth-first order
 
-We attempt to visit the node farthest from the root that we can, but with the caveat that it must be a child of a node we have already visited. Unlike a depth-first search on graphs, tere is no need to remember all the nodes we have visited, because a tree cannot contain cycles. Pre-order is a special case of this.
+We attempt to visit the node farthest from the root that we can, but with the caveat that it must be a child of a node we have already visited. Unlike a depth-first search on graphs, there is no need to remember all the nodes we have visited, because a tree cannot contain cycles. Pre-order is a special case of this.
+
+It starts at the root node (or arbitrary node in the case of a graph) and explores as far as possible along each branch before backtracking.
+
+![DFS](https://en.wikipedia.org/wiki/File:Depth-First-Search.gif)
 
 #### Breadth-first-order
 
 We attempt to visit the node closest from the root that it has not already been visited.
+
+![BFS](https://upload.wikimedia.org/wikipedia/commons/4/46/Animated_BFS.gif)
 
 ### Common Types
 

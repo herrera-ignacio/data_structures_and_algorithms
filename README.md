@@ -27,6 +27,7 @@
 	* [Hash Table](./src/data-structures/hash_table)
 * Algorithms
 	* [Divide and Conquer](./src/algorithms/divide-and-conquer)
+		* Solving Recurrences
 	* [Sorting](./src/algorithms/sorting)
 		* [Bubble Sort](./src/algorithms/sorting/bubble)
 		* [Insertion Sort](./src/algorithms/sorting/insertion)

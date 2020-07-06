@@ -86,7 +86,7 @@ Which is very much like common recurrences `S(m) = O(m lg m)`. Changing back fro
 
 `T(n) = O(lg(n) lg(lg(n)))
 
-### Recursion Tree Metod
+### Recursion Tree Method
 
 Each node represents the cost of a single suproblem somewhere in the set of recursive function invocations. We sum the costs within each level of the tree to obtain a set of per-level costs, and then we summ all to determine te total cost.
 

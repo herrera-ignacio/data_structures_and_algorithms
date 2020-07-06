@@ -80,9 +80,42 @@ Build-Max-Heap(A):
 Allow the Heap data structure to implement a priority queue:
 
 * Max-Heap-Insert
-* Heap-Extract-Max
 * Heap-Increase-Key
+* Heap-Extract-Max
 * Heap-Maximum
+
+```python
+Max-Heap-Insert(A, key):
+	A.heap-size = A.heap-size + 1
+	A[A.heap-size] = -infinity
+	Heap-Increase-Key(A, A.heap-size, key)
+```
+
+```python
+Heap-Increase-Key(A, i, key):
+	if key < A[i]:
+		error "new key is smaller than current key"
+	A[i] = key
+	while i > 1 and A[PARENT(i)] < A[i]
+		exchange A[i] with A[PARENT(i)]
+		i = PARENT(i)
+```
+
+```python
+Heap-Stract-Max(A):
+	if A.heap-size < 1:
+		error "heap underflow"
+	max = A[1]
+	A[1] = A[A.heap-size]
+	A.heap-size = A.heap-size - 1
+	Max-Heapify(A, 1)
+	return max
+```
+
+```python
+Heap-Maximum(A):
+	return A[1]
+```
 
 ## Implicit Heap Structure
 

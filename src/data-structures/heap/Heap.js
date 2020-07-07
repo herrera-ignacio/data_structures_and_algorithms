@@ -1,3 +1,6 @@
+/**
+ * Max Heap implementation
+ */
 class Heap {
 	constructor(arr = []) {
 		this._array = arr
@@ -7,6 +10,7 @@ class Heap {
 		}
 	}
 
+	Parent = (i) => Math.floor(i / 2)
 	Left = (i) => 2 * i + 1
 	Right = (i) => 2 * i + 2
 
@@ -31,6 +35,36 @@ class Heap {
 			this.Swap(i, largest)
 			this.MaxHeapify(largest)
 		}
+	}
+
+	IncreaseKey(i, key) {
+		if (i > this.heapSize) throw new Error('Invalid index')
+		if (key < this._array[i]) throw new Error("New key can't be smaller than current one")
+		this._array[i] = key
+		while (i > 0 && this._array[this.Parent(i)] < this._array[i]) {
+			this.Swap(i, this.Parent(i))
+			i = this.Parent(i)
+		}
+	}
+
+	InsertKey(key) {
+		this.heapSize += 1
+		this._array.push(Number.NEGATIVE_INFINITY)
+		this.IncreaseKey(this.heapSize, key)
+	}
+
+	Max() {
+		return this._array[0]
+	}
+
+	ExtractMax() {
+		if (this.heapSize < 0) throw new Error("Heap underflow")
+		const max = this._array[0]
+		this._array[0] = this._array[this.heapSize]
+		this.heapSize -= 1
+		this._array.pop()
+		this.MaxHeapify(0)
+		return max
 	}
 }
 

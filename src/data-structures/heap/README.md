@@ -102,7 +102,7 @@ Heap-Increase-Key(A, i, key):
 ```
 
 ```python
-Heap-Stract-Max(A):
+Heap-Extract-Max(A):
 	if A.heap-size < 1:
 		error "heap underflow"
 	max = A[1]
@@ -126,3 +126,9 @@ Thus the childre of the node at position n, would be positions 2n and 2n+1, or i
 Computing the index of the parent node of n-th element is also straightforward (n/2).
 
 ![heap array](./heap-array.png)
+
+```javascript
+Parent = (i) => Math.floor(i / 2)
+Left = (i) => 2 * i + 1
+Right = (i) => 2 * i + 2
+```

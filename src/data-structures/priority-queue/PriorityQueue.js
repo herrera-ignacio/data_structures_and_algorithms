@@ -1,24 +1,27 @@
 const Heap = require('../heap/Heap')
 
+/**
+ * Max Priority Queue based on Max Heap
+ */
 class PriorityQueue {
 	constructor() {
-		this.queue = new Heap()
+		this.heap = new Heap()
 	}
 
-	insert() {
-
+	insert(key) {
+		this.heap.InsertKey(key)
 	}
 
 	maximum() {
-
+		return this.heap.Max()
 	}
 
 	extractMax() {
-
+		return this.heap.ExtractMax()
 	}
 
-	increaseKey() {
-
+	increaseKey(i, key) {
+		return this.heap.IncreaseKey(i, key)
 	}
 }
 

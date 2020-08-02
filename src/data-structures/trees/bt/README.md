@@ -1,8 +1,16 @@
 # Binary Tree
 
-Tree data structure in which each node has _at most two children_.
+Ordered Tree data structure that satisfies the following properties:
 
-A recursive definition using just set theory notions is that a non-empty binary tree is a tuple `(L, S, R)` where `L` and `R` are binary trees or the empty set, and S is a singleton set.
+* Every node has __at most two children__.
+* Each child node is labeled as bieng either a __left child__ or a __right child__.
+* A left child precedes a right child in the order of children of a node.
+
+The subtree tooted at a left or right child of an internal node `v` is called a _left subtree_ or _right tree_, respectively, of `v`.
+
+A binary tree is __proper/full__ if  each node has either zero or two children.
+
+A __recursive definition__ using just set theory notions is that a non-empty binary tree is a tuple `(L, S, R)` where `L` and `R` are binary trees or the empty set, and S is a singleton set.
 
 ![binary](./binary.svg)
 
